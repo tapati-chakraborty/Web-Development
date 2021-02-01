@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>HTML FORMS</title>
+	</head>
+
+	<body>
+		<!-- html form starts from here -->
+		<H2>HTML Forms</H2>
+		<form action = "backend.php">
+			<label for ="name"> Name </label>
+
+			<div>
+				<!-- To input any text -->
+				<input type="text" name="myname" id="name">
+			</div>
+			<br>
+
+			<div>
+				Roll:<input type="text" name="myroll">
+			</div>
+			<br>
+
+			<div>
+				Email id:<input type="text" name="myemail">
+			</div>
+			<br>
+
+			<div>
+				Date:<input type="date" name="mydate">
+			</div>
+			<br>
+
+			<div>
+				Age:<input type="number" name="myage">
+			</div>
+			<br><br>
+
+			<div>
+				<!-- use of checkbox -->
+				Are you love chocolate?:<input type="checkbox" name ="love" checked>
+			</div>
+			<br>
+
+			<div>
+				<!-- use of range type -->
+				How much you excited to join this program?:<input type="range" name="myrange">
+			</div>
+			<br><br>
+
+			<div>
+				<!-- use of radio button -->
+				Gender:<br> Male:<input type="radio" name ="mygender" checked>
+							Female:<input type="radio" name ="mygender">
+							Other:<input type="radio" name ="mygender">
+			</div>
+
+			<br>
+			<div>
+				<!-- to add lonk text -->
+				Write about your hobbies:<br> <textarea name="mytext" cols="90" rows="10"></textarea>
+			</div>
+			<br>
+
+
+			<div>
+				<label for ="event">Events</label>
+				<!-- selection button -->
+				<select name="myevent" id="event">
+
+					<option value="sing">Sing</option>
+					<option value="dnc">Dance</option>
+					<option value="rec">Recitation</option>
+				</select>
+			</div>
+			<br>
+
+
+			<div>
+				<!-- submit button -->
+				<input type="submit" value="submit now">
+				<input type="reset" value="reset now">
+			</div>
+
+		</form>
+
+	</body>
+</html>
+
+<!-- Here we see how to create form in html -->
