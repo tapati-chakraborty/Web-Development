@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CSS Borders and Background</title>
+
+		<style>
+			#firstpara{
+				background-color: turquoise;
+				height: 100px;
+				width: 455px;
+
+				border: 4px solid black;
+				/*border-width: 4px;
+				border-color: black;
+				border-style: solid;*/
+
+				border-radius: 12px;
+			}
+
+			#secondpara{
+				background-color:coral;
+				height: 120px;
+				width: 420px;
+
+				border-top: 4px solid black;
+				border-right: 4px dotted rgb(57, 57, 151);
+				border-bottom: 4px solid rgb(57, 218, 151);
+				border-left: 4px dotted rgb(12, 57, 151);
+
+				border-top-left-radius: 10px;
+				border-top-right-radius: 4px;
+				border-bottom-left-radius: 10px;
+				border-bottom-right-radius: 4px;
+			}
+
+			#thirdpara{
+				height: 200px;
+				width: 400px;
+				background-image: url(https://cdn.the-scientist.com/assets/articleNo/66820/hImg/34886/bird-banner3-l.png);
+				/* copy any url from browser */
+
+				border:4px solid black;
+				background-size: 600px;
+
+				background-repeat: no-repeat;
+				/* background-repeat: repeat-x;
+				background-repeat: repeat-y;
+				>>> repeats backgroung image along x-axis and y-axis respectively*/
+
+				background-position: center center;
+				/* background-position: top right;
+				background-position: bottom right; */
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<h3>This is first heading</h3>
+		<p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque laboriosam explicabo?</p>
+
+		<h3>This is second heading</h3>
+		<p id="secondpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rerum vel voluptatem?</p>
+
+		<h3>This is third heading</h3>
+		<p id="thirdpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta iusto voluptatibus culpa.</p>
+
+	</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Padding and Margin</title>
+
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body{
+                background-color: burlywood;
+            }
+            .container{
+                background-color: chocolate;
+                border: 3px solid black;
+
+                /* we can set padding and margin seperately like this  */
+                /* padding-top: 50px;
+                padding-right: 50px;
+                padding-bottom: 25px;
+                padding-left: 40px; */
+
+                /* margin-top: 40px;
+                margin-right: 40px;
+                margin-bottom: 30px;
+                margin-left: 20px; */
+
+                /* we can write padding and margin this way also */
+                /* padding: top right bottom left;
+                margin: top right bottom left; */
+
+                /* padding:50px 25px 50px 40px; */
+                /* margin:40px 40px 30px 20px; */
+
+                /* padding: y(top/bottom) x(left/right); */
+                /* margin: y(top/bottom) x(left/right); */
+
+                padding: 50px 25px;
+                margin: 30px 25px;
+                border-radius: 10px;
+                width: 530px;
+
+            }
+
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h3>This is my first heading</h3>
+            <p id="first">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur perferendis sapiente provident qui vero repellendus atque dolores libero magni temporibus.</p>
+        </div>
+
+        <div class="container">
+            <h3>This is my second heading</h3>
+            <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, nesciunt ea iste odio harum non id expedita commodi veritatis dolorem dolor deleniti minus.</p>
+        </div>
+
+        <div class="container">
+            <h3>This is my third heading</h3>
+            <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem deserunt nulla ratione delectus nobis enim iure mollitia adipisci, totam numquam maiores corporis molestias minus.</p>
+        </div>
+
+    </body>
+</html>
+
+<!-- This is all about margin and padding in css  -->
