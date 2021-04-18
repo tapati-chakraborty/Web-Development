@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CSS Float and Clear</title>
+
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+
+			body{
+				font-family: Georgia, 'Times New Roman', Times, serif;
+			}
+
+			.container{
+				width: 1000px;
+				border: 4px solid black;
+				background-color: coral;
+				margin: 33px auto;
+			}
+
+			.item{
+				border: 5px solid blueviolet;
+				padding: 20px 15px;
+				margin: 12px 10px;
+				background: rgba(13, 229, 236, 0.712);
+			}
+
+			#fruit{
+				float: left;
+				width: 40%;
+			}
+
+			#flower{
+				float: right;
+				width: 45%;
+			}
+
+			#vegetable{
+				/* float: left; */
+				clear:both;
+				width: 98%;
+			}
+
+			p, h3{
+				/* text-align: left;
+				text-align: right; */
+				text-align: justify;
+			}
+
+			h1{
+				margin: 30px auto;
+				width: 450px;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>Welcome to my store</h1>
+
+			<div id="flower" class="item">
+				<h3>FLOWER</h3>
+				<p id="first" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit doloribus explicabo inventore id nihil quaerat quos, ipsa possimus perspiciatis eos blanditiis numquam ab tempora ipsam accusamus laborum ullam sequi consequatur consequuntur. Dignissimos, ducimus recusandae?</p>
+			</div>
+
+			<div id="fruit" class="item">
+				<h3>FRUIT</h3>
+				<p id="second" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur eos adipisci similique ducimus nobis dignissimos ad consequatur, dolor repellat et rerum neque commodi.</p>
+			</div>
+
+			<div id="vegetable" class="item">
+				<h3>VEGETABLE</h3>
+				<p id="third" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corrupti illum, itaque eligendi consequuntur sint natus minima fuga sed reiciendis. Nemo distinctio nisi aperiam ex repudiandae, molestias minus saepe soluta delectus quia cum fugit illum illo cumque in libero nihil doloremque consequuntur quasi obcaecati labore.</p>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- This is all about css float and clear property -->
